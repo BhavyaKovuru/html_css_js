@@ -1,0 +1,11 @@
+.child{
+    text-align: center;
+    position: relative;
+}
+img{
+    display: block;
+    float:left;
+}
+.centred{
+    display: absolute;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="js/events2.js"></script>
+        <link rel="stylesheet" href="CssFolder/events2.css">
+    </head>
+    <body>
+        <h1>Modify the DOM</h1>
+		<button onclick="document.getElementById('stuff').innerHTML = 'Clicked First Button';">First</button>
+
+		<button onclick="document.getElementById('stuff').innerHTML = 'Clicked Another Button';">Third</button>
+	    <p>This code shouldn't change.</p>
+	    <p id="stuff">This will change.</p>
+	    <p>This shouldn't change either.</p>
+    </body>
+</html>

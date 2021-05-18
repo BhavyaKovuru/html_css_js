@@ -1,0 +1,16 @@
+h1,h2{
+	color: red;
+	font-family: verdana, Arial;
+	/*font-size: 50%;*/
+	background-color: powderblue;
+	font-variant: small-caps;
+	text-align: center;
+  }
+
+p{
+	color: pink;
+	border: px solid powderblue;
+	padding:30px;
+	margin:50px;
+	line-height: 200%
+}

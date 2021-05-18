@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Makaroons Home Page</title>
+    <link rel="stylesheet" href="../css/makaroon.css">
+</head>
+<body>
+	<header>
+		<h1>Makaroons</h1>
+		<div class="navMobile">
+			<div class="topNav">
+				<div onclick="closeBars(this)">
+				 <div class="bars">
+					<div class="bar1"></div>
+  					<div class="bar2"></div>
+					<div class="bar3"></div>
+				 </div>
+				 <nav id="myLinks">
+					 <ul>
+						<li><a href="index.html">About Us</a><hr></li>						
+						<li><a href="location.html">Location & Hours</a><hr></li>
+						<li><a href="menus.html">Menus</a><hr></li>						
+						<li><a href="contact.html">Contact Us</a><hr></li>						
+					 </ul>
+				 </nav>
+				</div>
+			</div>
+		</div>
+	  
+		<div class="navPc">
+			<ul>
+				<li><a href="index.html">About Us</a></li>				
+				<li><a href="location.html">Location & Hours</a></li>				
+				<li class="active1"><a href="menus.html">Menus</a></li>				
+				<li><a href="contact.html">Contact Us</a></li>	
+			</ul>
+		</div>
+	  
+	</header>
+	<br>
+	<br>
+	<br>
+	<br>
+	<main>
+		
+		<button class ="button" onclick="buttonActivateIce()">Ice-creams</button>
+		<button class ="button" onclick="buttonActivateDrinks()">Beverages</button>
+		<br>
+		<br>
+		<div id="items">
+			<div id="ice">
+				<p>
+					Blue Heaven</p>
+					<hr>
+					<p>
+					Black Raspberry</p>
+					<hr>
+					<p>
+					Coconut almond chip</p>
+					<hr>
+					<p>
+					Pistasio
+					</p>
+					<hr>
+					<p>
+					Huckleberry
+				</p>
+			</div>
+			<div id="drinks">
+				<p>
+					Winter melon punch</p>
+					<hr>
+					<p>
+					Lemonade</p>
+					<hr>
+					<p>
+					Ice milk</p>
+					<hr>
+					<p>
+					Lemon Tea</p>
+					<hr>
+					<p>
+					strawberry Limeade
+				</p>
+			</div>
+		</div>
+		
+	</main>
+	<script src="../js/makaroon.js">
+    </script>
+    <footer>
+        <div class="footer">
+            <p>Ph: 654342658</p>
+			<p>Paul St
+					Shoreditch, London, UK</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+h2{
+	text-align: center;
+}
+
+div{
+	background-color: #0000CC;
+	color:#ffffff;
+	box-sizing:border-box;
+
+	
+	width:40%/*add here*/;
+	display:inline-block;/*add here*/;
+	height: 200px;
+	margin:5px;
+	border: 20px solid #000000;
+	padding: 15px;
+  margin:0 auto;/*add here*/;
+	margin-top: 50px;
+}
+

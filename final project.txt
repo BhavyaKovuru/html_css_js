@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset = "UTF-8">
+	<title>My Profile</title>
+	<link rel="stylessheet" href="bunny/style.css">
+	/*inside style.css wrie without the style tags
+	<style>
+		h1{
+			color: blue;
+		}
+	</style>*/
+</head>
+<body>
+	<section>
+	<h1> Bhavya Manvitha Kovuru</h1>
+	<p>
+		<a href="url">One</a>
+		<a href="url">Two</a>
+	</p>
+	</section>
+
+</body>
+</html>

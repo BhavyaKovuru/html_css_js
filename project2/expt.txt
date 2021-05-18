@@ -1,0 +1,16 @@
+<div class="child">
+        <img onclick="imagevisibility(this)" class="menitem" src="../images/ice2.jpg" alt="ice1">
+        <h2 class="centered">Text2</h2>
+    </div>
+    <div class="child">
+        <img onclick="imagevisibility(this)" class="menitem" src="../images/ice3.jpg" alt="ice1">
+        <h2 class="centered">Text2</h2>
+    </div>
+    <div class="child">
+        <img onclick="imagevisibility(this)" class="menitem" src="../images/ice4.jpg" alt="ice1">
+        <h2 class="centered">Text2</h2>
+    </div>
+    <div class="child">
+        <img onclick="imagevisibility(this)" class="menitem" src="../images/ice7.jpg" alt="ice1">
+        <h2 class="centered">Text2</h2>
+    </div>

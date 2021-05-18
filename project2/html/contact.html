@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Makaroons Home Page</title>
+    <link rel="stylesheet" href="../css/makaroon.css">
+	<script src="../js/makaroon.js">
+    </script>
+</head>
+<body>
+	<header>
+		<h1>Makaroons</h1>
+		<div class="navMobile">
+			<div class="topNav">
+				<div onclick="closeBars(this)">
+				 <div class="bars">
+					<div class="bar1"></div>
+  					<div class="bar2"></div>
+					<div class="bar3"></div>
+				 </div>
+				 <nav id="myLinks">
+					 <ul>
+						<li><a href="index.html">About Us</a><hr></li>
+						<li><a href="location.html">Location & Hours</a><hr></li>
+						<li><a href="menus.html">Menus</a><hr></li>
+						<li><a href="contact.html">Contact Us</a><hr></li>	
+					 </ul>
+				 </nav>
+				</div>
+			</div>
+		</div>
+	  
+		<div class="navPc">
+			<ul>
+				<li><a href="index.html">About Us</a></li>
+				<li><a href="location.html">Location & Hours</a></li>
+				<li><a href="menus.html">Menus</a></li>                
+                <li class="active1"><a href="contact.html">Contact Us</a></li>	
+			</ul>
+		</div>
+	  
+	</header>
+	<br>
+	<br>
+	<br>
+	<br>
+	<main>
+		<p>
+			Wanna send us a message!
+		</p>
+		<p>
+			Provide feedbak??
+		</p>
+		<p>
+			You can also reach us through email: makaroonsorg@gmail.com
+		</p>
+		<p>
+			Wanna bok appointment by call: +91 6578329645
+		</p>
+        <br>
+		
+		<form>
+			<fieldset>
+				<legend>Leave us a message!!</legend>
+				<br>
+				<label>Name: <input type = 'text' id = 'name' name='name' placeholder="name"></label>
+				<br>
+				<label>Email:  <input type='email' name= 'email' placeholder="example@ample.com"></label>
+				<br>
+				<label>Phone No.: <input type='tel' name='numb' pattern='[0-9]{10}' placeholder="9765341534"></label>
+				<br>
+				<label>Subject: <input type = 'text' name='sub' placeholder="feedback"></label>	
+				<br>
+				Yoour Message:<br>
+				<textarea rows = '6' cols='50' name= 'message'>Enter your message here... </textarea>
+				<br>
+				<input type='submit' value = 'submit' style="text-align: center; display:block; margin: 0 auto; background: rgb(139, 69, 19); color: rgb(255, 248, 220); font-size:1.1em">
+			</fieldset>
+		</form>
+		 <br>
+		 <br>
+		 <br>   
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Ph: 654342658</p>
+			<p>Paul St
+					Shoreditch, London, UK</p>
+        </div>
+    </footer>
+</body>
+</html>
